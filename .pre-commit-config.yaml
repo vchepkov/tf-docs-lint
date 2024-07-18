@@ -1,0 +1,9 @@
+repos:
+- repo: https://github.com/antonbabenko/pre-commit-terraform.git
+  rev: v1.92.0
+  hooks:
+    - id: terraform_docs
+      args:
+        - --args=--lockfile=false
+        - --args=--output-check=true
+        - --hook-config=--use_standard_markers=true
