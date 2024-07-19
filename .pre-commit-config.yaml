@@ -6,4 +6,4 @@ repos:
       args:
         - --args=--lockfile=false
         - --args=--output-check=true
-        - --hook-config=--use_standard_markers=true
+        - --hook-config=--use-standard-markers=true
