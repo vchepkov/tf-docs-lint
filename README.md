@@ -8,7 +8,5 @@ $ terraform-docs markdown --lockfile=false --output-check=true --output-file REA
 Error: README.md is out of date
 ```
 
-Hook does not
-
 <!-- BEGIN_TF_DOCS -->
 <!-- END_TF_DOCS -->
